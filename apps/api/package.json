@@ -1,0 +1,13 @@
+{
+  "name": "api",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "nest start --watch",
+    "build": "nest build",
+    "start:prod": "node dist/main.js",
+    "prisma:generate": "prisma generate --schema=prisma/schema.prisma",
+    "prisma:migrate": "prisma migrate dev --schema=prisma/schema.prisma",
+    "prisma:seed": "ts-node --transpile-only prisma/seed.ts"
+  }
+}
