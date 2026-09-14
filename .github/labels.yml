@@ -1,0 +1,10 @@
+name: "Registered Massage Therapist"
+about: "Two-sided marketplace connecting clients with verified/licensed massage therapists"
+
+labels:
+  - name: bug
+    color: d73a4a
+  - name: feature
+    color: 0e8a16
+  - name: enhancement
+    color: a2eeef
